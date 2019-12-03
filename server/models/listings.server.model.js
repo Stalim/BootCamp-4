@@ -7,7 +7,11 @@ var listingSchema = new Schema({
   name: {
     type: String, 
     required: true
-  }, 
+  },
+  img: { 
+    data: Buffer, 
+    contentType: String 
+  },
   code: {
     type: String, 
     required: true, 
